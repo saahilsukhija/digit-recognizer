@@ -1,0 +1,49 @@
+.navbar {
+    top: 0px;
+    background-color: #ededed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    box-shadow: 0 1px 2px rgba(161, 161, 161, 0.826);
+
+}
+
+.navbar h1{
+    font-size: 28px;
+}
+
+.navbar-brand {
+    padding: 0px 25px;
+}
+
+.navbar-links {
+    padding-right: 25px;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-link:hover{
+    color: #96d8f8;
+}
+
+.navbar .linImg {
+    width: fit-content;
+}
+
+.navbar .gitImg {
+    width: 35%;
+    
+}
+
+.navbar img:hover {
+    fill: white;
+}
+
+.navbar-links .link {
+    cursor: pointer;
+    filter: brightness(0);
+}
